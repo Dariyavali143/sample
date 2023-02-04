@@ -1,0 +1,188 @@
+
+<html>
+
+
+<body>
+
+
+<h1> String Methods</h1>
+
+
+<script>
+
+/*
+// 9) indexOf() 
+
+ let name="Dariya vali tbd";
+
+ let x= name.indexOf("tbd"); // it return index number
+
+document.write(x)
+*/
+
+
+
+
+/*
+// 10) lastindexOf() 
+
+let name="Dariya vali tbd";
+
+let x= name.lastIndexOf("d"); //  similarly as indexOf() 
+
+document.write(x)
+*/
+
+
+
+/*
+// 11) replace() 
+let name="Dariya vali tbd";
+let x= name.replace("vali","sdv"); //  we can replace string value
+document.write(x)
+*/
+
+
+/*
+// 11) replace() -> replace globaly
+let name="Dariya vali tbd vali";
+let x= name.replace(/vali/g,"sdv"); //  we can replace string value globaly
+document.write(x)
+*/
+
+
+
+/*
+// 12) trim()
+let name="  Dariya vali tbd vali  ";
+let x= name.trim(); //  it remove empty space from right side and left side of given string
+//document.write(name)
+console.log(x)
+*/
+
+
+/*
+// 13) concat() 
+let name1="Dariya";
+let name2="vali";
+let name3="  tbd";
+let x= name1.concat(name2,name3) // we merge one or more string , return new string
+document.write(x)
+//console.log(x)
+
+*/
+
+
+
+
+/*
+// 13) split()
+let name="Dariya vali tbd vali";
+let x= name.split("vali")
+//let xy= name.split("") // mukkaluga bhagalu chesiddi
+document.write(x)
+*/
+
+
+
+
+/*
+// 14) repeat()
+let name="Dariya vali tbd vali";
+let x= name.repeat(3) // string print 3 times
+
+document.write(x)
+*/
+
+
+
+
+/*
+// 15) slice()
+let name="Dariya vali tbd vali";
+let x= name.slice(2,6) // manaku eakkadi nunchi eakkadi varaku kavali anedi tisukuntam
+document.write(x)
+*/
+
+
+
+
+/*
+// 16) toString()
+let name=50
+let x= name.toString() // convert number in  string
+document.write(x+20)
+*/
+
+
+
+
+
+
+
+/*
+// 17) split('')  --> convert  string into array
+let name="Dariya";
+let x= name.split("")
+//let xy= name.split("") // mukkaluga bhagalu chesiddi -> convert in to array
+document.write(x)
+console.log(x)     // convert  string into array
+*/
+
+
+
+
+
+/*
+// 18) join('')  --> convert array into  string 
+let name= ["d","a","r","i","y","a","v","a","l","i"]
+let x=name.join('')  //--> convert array into  string 
+//document.write(x)
+console.log(x)    
+*/
+
+
+
+
+
+/*
+// 17) split('')  --> convert  string into array
+let name="Dariya vali tbd";
+let x= name.split(' ')
+
+console.log(x)     // convert  string into array
+*/
+
+/*   ---------------------> practies <--------------------   */
+
+
+// map() method
+
+
+/*
+let arry=[1,5,4,5,1,]
+let y=arry.forEach((ele,index)=>{
+    console.log(ele,index)
+}
+)
+*/
+
+
+
+
+ 
+        //11) find( ) method with numbers
+            let  arry1=[1,2,4,5,6,7,8,9,10]
+            let x=  arry1.find(ele=>ele==2) // 5 kante pedda values ni matrame print chesiddi
+            console.log(x)  // o/p is 6        // condition stisfy avvakapote undifine vastundi
+             
+           // console.log( typeof x)  
+           
+
+
+</script>
+</body>
+
+
+
+</html>
