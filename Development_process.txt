@@ -1,0 +1,13 @@
+Developement Process
+
+Step --> 1) I sended source code in zip formate (https://drive.google.com/file/d/1GsoYyGHoDA47om9VoUHp9MXheuM3I5Tf/view?usp=sharing)
+
+Step --> 2) I sended live website link  (https://dancing-kangaroo-716337.netlify.app/index.html)
+
+Step --> 3) I not face any challenges during this assignment
+
+Step --> 4) I used HTML5,CSS3,JAVASCRIPT,BOOTSTRAP5 to develope this task
+
+Step --> 5) This website fully responsive and mobile-friendly (i checked with device toolbar )
+
+Step --> 6)I used BOOTSTRAP5 for responsive design (becouse for time consuming)
